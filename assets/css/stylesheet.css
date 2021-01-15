@@ -1,0 +1,9 @@
+header {
+    background: aqua;
+    width: 1400px;
+    height: 45px;
+}
+
+header > nav > h4 {
+    text-align: center;
+}
