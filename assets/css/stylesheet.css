@@ -92,6 +92,8 @@ nav {
     width: 80vw;
     height: 65vh;
     margin-left: 110px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     background: linear-gradient(to bottom, #2CD3EF, #7FEEE4);
 drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
 }
@@ -109,7 +111,7 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
 
 .mydetails {
     padding-left: 75px;
-    padding-top: 30px;
+    padding-top: 2px;
     font-size: 18px;
 }
 
@@ -121,6 +123,13 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     background: #42ACF9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 27px;
+    transition: all 0.3s ease-in-out;
+}
+.dbutton:hover{
+    transform: scale(1.00);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(2, 94, 231));
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
 }
 
 #buttonD {
@@ -129,4 +138,180 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     text-decoration: none;
     font-size: 18px;
     color: black;
+}
+
+.skills {
+    width: 80vw;
+    height: 65vh;
+    margin-left: 110px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, #f56482, #f5a3d1);
+drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
+
+}
+
+#skill {
+    padding-left: 30px;
+}
+
+.myskils {
+    padding-left: 105px;
+    padding-top: 2px;
+    font-size: 22px
+}
+
+#java, #css, #html, #ms, #js {
+    /*padding-top: 20px;*/
+    margin-left: -90px;
+}
+
+.javaclass, .cssclass, .htmlclass, .mysql, .js {
+    /*position: absolute;*/
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+.javaclass {
+    width: 571.83px;
+    height: 19.52px;
+    left: 369px;
+    top: 1524.8px;
+    background: #FF4848;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.javaclass:hover{
+    transform: scale(1.00);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgba(176, 6, 6, 0.3));
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+}
+
+.cssclass {
+    width: 210.92px;
+    height: 22.62px;
+    left: 370px;
+    top: 1581.18px;
+
+    background: #BFEE05;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.cssclass:hover{
+    transform: scale(1.00);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(61, 210, 6));
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+}
+
+.htmlclass {
+    width: 281.95px;
+    height: 25.55px;
+    left: 370px;
+    top: 1653.35px;
+
+    background: #48B2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.htmlclass:hover{
+    transform: scale(1.00);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(22, 69, 224));
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+}
+
+.mysql {
+    width: 233.5px;
+    height: 25.55px;
+    left: 370px;
+    top: 1723.4px;
+
+    background: #515D65;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.mysql:hover{
+    transform: scale(1.00);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(161, 171, 171));
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+}
+
+.js {
+    width: 365.33px;
+    height: 25.55px;
+    left: 369px;
+    top: 1797.4px;
+
+    background: #CD7F0B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.js:hover{
+    transform: scale(1.00);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(229, 201, 5));
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+}
+
+#edumain {
+    padding-left: 30px;
+}
+
+.Edu {
+    width: 80vw;
+    height: 65vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 110px;
+    background: linear-gradient(to bottom, #FFE3F1, #f5a3d1);
+drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
+}
+
+.eduijse {
+    width: 420px;
+    height: 108px;
+    left: 788px;
+    top: 2264px;
+    background: #f56482;
+    margin-left: 20px;
+
+    /*border: 1px solid rgba(255,255,255,0.4);*/
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgb(241, 48, 221));
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.eduijse:hover {
+    transform: scale(1.01);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgb(241, 22, 142));
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#ijse {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#trange {
+    padding-left: 20px;
+    padding-top: 3px;
+    margin-top: -13px;
 }
