@@ -120,25 +120,38 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     height: 36px;
     left: 168px;
     top: 408px;
-    background: #42ACF9;
+    background: #0e3ad9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 27px;
-    transition: all 0.3s ease-in-out;
-}
-.dbutton:hover{
-    transform: scale(1.00);
-    backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(2, 94, 231));
-    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+    /*transition: all 0.3s ease-in-out;*/
+    border: 1px solid #09a9ff;
+    /*background: none;*/
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    color: #ffffffff;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+    padding-left: 28px;
+    padding-top: 5px;
 }
 
-#buttonD {
-    padding-left: 30px;
-    padding-top: 7px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
+.dbutton:hover {
+    transform: scale(1.00);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%, rgb(32, 210, 162), rgb(2, 94, 231));
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.5);
 }
+
+/*.dbutton {*/
+/*    padding-left: 30px;*/
+/*    padding-top: 7px;*/
+/*    text-decoration: none;*/
+/*    font-size: 18px;*/
+/*    color: black;*/
+/*}*/
 
 .skills {
     width: 80vw;
@@ -179,17 +192,19 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     left: 369px;
     top: 1524.8px;
     background: #FF4848;
+    border: 1px solid #FF4848;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 39px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     transition: all 0.3s ease-in-out;
 }
-.javaclass:hover{
-    transform: scale(1.00);
-    backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgba(176, 6, 6, 0.3));
-    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
-}
+
+/*.javaclass:hover{*/
+/*    transform: scale(1.00);*/
+/*    backdrop-filter: blur(5px);*/
+/*    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgba(176, 6, 6, 0.3));*/
+/*    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);*/
+/*}*/
 
 .cssclass {
     width: 210.92px;
@@ -198,17 +213,19 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     top: 1581.18px;
 
     background: #BFEE05;
+    border: 1px solid #BFEE05;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 39px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     transition: all 0.3s ease-in-out;
 }
-.cssclass:hover{
-    transform: scale(1.00);
-    backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(61, 210, 6));
-    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
-}
+
+/*.cssclass:hover{*/
+/*    transform: scale(1.00);*/
+/*    backdrop-filter: blur(5px);*/
+/*    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(61, 210, 6));*/
+/*    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);*/
+/*}*/
 
 .htmlclass {
     width: 281.95px;
@@ -217,17 +234,19 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     top: 1653.35px;
 
     background: #48B2FF;
+    border: 1px solid #48B2FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 39px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     transition: all 0.3s ease-in-out;
 }
-.htmlclass:hover{
-    transform: scale(1.00);
-    backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(22, 69, 224));
-    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
-}
+
+/*.htmlclass:hover{*/
+/*    transform: scale(1.00);*/
+/*    backdrop-filter: blur(5px);*/
+/*    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(22, 69, 224));*/
+/*    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);*/
+/*}*/
 
 .mysql {
     width: 233.5px;
@@ -236,17 +255,19 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     top: 1723.4px;
 
     background: #515D65;
+    border: 1px solid #515D65;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 39px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     transition: all 0.3s ease-in-out;
 }
-.mysql:hover{
-    transform: scale(1.00);
-    backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(161, 171, 171));
-    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
-}
+
+/*.mysql:hover{*/
+/*    transform: scale(1.00);*/
+/*    backdrop-filter: blur(5px);*/
+/*    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(161, 171, 171));*/
+/*    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);*/
+/*}*/
 
 .js {
     width: 365.33px;
@@ -255,17 +276,19 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     top: 1797.4px;
 
     background: #CD7F0B;
+    border: 1px solid #CD7F0B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 39px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     transition: all 0.3s ease-in-out;
 }
-.js:hover{
-    transform: scale(1.00);
-    backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(229, 201, 5));
-    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
-}
+
+/*.js:hover{*/
+/*    transform: scale(1.00);*/
+/*    backdrop-filter: blur(5px);*/
+/*    background: radial-gradient(at 50% 0%,rgba(0,0,0,0), rgb(229, 201, 5));*/
+/*    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);*/
+/*}*/
 
 #edumain {
     padding-left: 30px;
@@ -279,6 +302,8 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     margin-left: 110px;
     background: linear-gradient(to bottom, #FFE3F1, #f5a3d1);
 drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
+    display: flex;
+
 }
 
 .eduijse {
@@ -287,7 +312,8 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     left: 788px;
     top: 2264px;
     background: #f56482;
-    margin-left: 20px;
+    margin-left: 422px;
+    margin-top: 25px;
 
     /*border: 1px solid rgba(255,255,255,0.4);*/
     border-radius: 10px;
@@ -315,3 +341,121 @@ drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));
     padding-top: 3px;
     margin-top: -13px;
 }
+
+.assignment {
+    /*    width: 80vw;*/
+    /*    height: 65vh;*/
+    /*    margin-left: 110px;*/
+    /*    border-radius: 10px;*/
+    /*    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);*/
+    /*    background: linear-gradient(to bottom, #f56482, #f5a3d1);*/
+    /*drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));*/
+
+    /*position: absolute;*/
+    width: 710px;
+    height: 454px;
+    left: 91px;
+    top: 2929px;
+    margin-left: 105px;
+    border-radius: 68px;
+    display: flex;
+
+}
+
+#assg {
+    padding-left: 30px;
+}
+
+#assg1 {
+    /*    width: 80px;*/
+    /*    height: 80px;*/
+    /*    margin-left: 735px;*/
+    /*    margin-top: -400px;*/
+    /*    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);*/
+    /*    background: linear-gradient(to bottom, #032398, #0319f1);*/
+    /*drop-shadow(0 px 4 px 4 px rgba(0, 0, 0, 0.25));*/
+
+    width: 260px;
+    height: 80px;
+    display: flex;
+}
+
+.btn {
+    border: 1px solid #09a9ff;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.btnjava, .btnsql {
+    color: #09a9ff;
+}
+
+.btnjava:hover, .btnsql:hover {
+    color: #ffffff;
+}
+
+.btn::before {
+    content: "";
+    /*position: absolute;*/
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #09a9ff;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btnjava::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btnsql::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.btnjava:hover::before, .btnsql:hover::before {
+    height: 180%;
+}
+.btnjava{
+    width: 180px;
+    height: 90px;
+}
+.btnsql{
+    width: 224px;
+    height: 90px;
+}
+#prj{
+    padding-left: 30px;
+}
+
+.img{
+    width: 715px;
+    height: 750px;
+    left: 642px;
+    top: 3483px;
+    border-radius: 357.5px;
+    margin-top: -60px;
+    margin-left: 17px;
+
+}
+.project{
+    display: flex;
+}
+
+
+
+/*position: absolute;*/
+/*width: 715px;*/
+/*height: 750px;*/
+/*left: 642px;*/
+/*top: 3483px;*/
+
+/*background: url(4745c0ea356050be58688f81*/
