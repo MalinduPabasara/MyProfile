@@ -146,7 +146,7 @@ nav {
 .dbutton:hover {
     transform: scale(1.00);
     backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%, rgb(32, 210, 162), rgb(2, 94, 231));
+    background: radial-gradient(at 50% 0%, rgb(56, 144, 221), rgb(2, 94, 231));
     box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -406,7 +406,7 @@ nav {
 
 .Edu {
     width: 80vw;
-    height: 65vh;
+    height: 85vh;
     border-radius: 10px;
     /*box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);*/
     margin-left: 110px;
@@ -420,12 +420,12 @@ nav {
 .eduijse {
     width: 420px;
     height: 108px;
-    left: 788px;
-    top: 2264px;
+    /*left: 788px;*/
+    /*top: 2264px;*/
     background: #f56482;
-    margin-left: 422px;
+    margin-left: 625px;
     margin-top: 25px;
-
+    display: inline-block;
     /*border: 1px solid rgba(255,255,255,0.4);*/
     border-radius: 10px;
     backdrop-filter: blur(5px);
@@ -438,20 +438,103 @@ nav {
 .eduijse:hover {
     transform: scale(1.01);
     backdrop-filter: blur(5px);
-    background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgb(241, 22, 142));
+    background: radial-gradient(at 50% 0%, rgb(195, 73, 73), rgb(236, 22, 64));
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    border-radius: 0px;
+    /*transform: scaleY(1.01);*/
 }
 
 #ijse {
     padding-left: 20px;
-    padding-top: 15px;
+    padding-top: 4px;
 }
 
-#trange {
+#IJSETRange {
     padding-left: 20px;
     padding-top: 3px;
     margin-top: -13px;
 }
+
+.edubeeline {
+    width: 420px;
+    height: 108px;
+    /*left: 788px;*/
+    /*top: 2264px;*/
+    background: #12a2ef;
+    margin-left: 24px;
+    margin-top: 65px;
+
+    /*border: 1px solid rgba(255,255,255,0.4);*/
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%, rgb(44, 53, 208), rgb(62, 27, 219));
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.edubeeline:hover {
+    transform: scale(1.01);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%, rgb(11, 102, 215), rgb(16, 67, 214));
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+#beeline {
+    margin: unset;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: #ffffff;
+}
+
+#BTRange {
+    margin: unset;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: #ffffff;
+
+}
+
+.eduschool {
+    width: 420px;
+    height: 108px;
+    /*left: 788px;*/
+    /*top: 2264px;*/
+    background: #69e9e9;
+    margin-left: 600px;
+    margin-top: 70px;
+
+    /*border: 1px solid rgba(255,255,255,0.4);*/
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%, rgb(5, 150, 172), rgb(5, 174, 221));
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.eduschool:hover {
+    transform: scale(1.01);
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%, rgb(6, 131, 160), rgb(3, 145, 171));
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+#school {
+    margin: unset;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+#STRange {
+    margin: unset;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
 
 .assignment {
     /*    width: 80vw;*/
@@ -579,13 +662,127 @@ nav {
     /*background-color: transparent;*/
     /*background: radial-gradient(at 50% 0%,rgba(0,0,0,0),rgba(255,255,255,0.3));*/
     /*background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgb(241, 22, 142));*/
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+
+
 }
 
-/*position: absolute;*/
-/*width: 715px;*/
-/*height: 750px;*/
-/*left: 642px;*/
-/*top: 3483px;*/
 
-/*background: url(4745c0ea356050be58688f81*/
+#int {
+    padding-left: 30px;
+}
+
+
+.i1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    background: lightblue;
+    /*background: linear-gradient(to left, #09a9ff, #f56482);*/
+    transition: all 0.3s ease-in-out;
+
+}
+
+.i1:hover {
+    transform: scale(1.02);
+    backdrop-filter: blur(5px);
+    background: #df82ef;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.i2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 400px;
+    background: #43c4c4;
+    /*background: linear-gradient(to left, #FF4848, #09a9ff);*/
+    transition: all 0.3s ease-in-out;
+}
+
+.i2:hover {
+    transform: scale(1.02);
+    backdrop-filter: blur(5px);
+    background: #0591d9;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/*.i3 {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    position: absolute;*/
+/*    left: 600px;*/
+/*    background: linear-gradient(to left, #e735ce, #FF4848);*/
+/*    transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/*.i3:hover {*/
+/*    transform: scale(1.02);*/
+/*    backdrop-filter: blur(5px);*/
+/*    background: #FF4848;*/
+/*    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);*/
+/*    color: #ffffff;*/
+/*    font-size: 20px;*/
+/*}*/
+
+.i3 {
+    height: 200px;
+    width: 200px;
+    background: #dde1e7;
+    border-radius: 5px;
+    position: absolute;
+    left: 600px;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.45), 3px 3px 5px rgba(
+            94, 104, 121, .288);
+    transition: all 0.3s ease-in-out;
+}
+
+.i3:hover {
+    transform: scale(1.05);
+    transition: ease-in-out;
+}
+
+/*.i3{*/
+/*    margin: 20px;*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background: #dde1e7;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: inset -3px -3px 7px #ffffff73,inset 3px 3px 5px rgba(*/
+/*            94,104,121, .288);*/
+/*}*/
+
+#i1 {
+    position: absolute;
+    left: 68px;
+    top: 66px;
+    font-size: 16px;
+}
+
+#i2 {
+    position: absolute;
+    left: 50px;
+    top: 66px;
+    font-size: 16px;
+}
+
+#i3 {
+    position: absolute;
+    left: 50px;
+    top: 66px;
+    font-size: 16px;
+}
+
+
+.foot {
+    width: 100vw;
+    height: 40vh;
+    background: #5b5858;
+    position: relative;
+    top: 250px;
+}
