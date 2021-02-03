@@ -588,6 +588,7 @@ nav {
 
 .btnjava, .btnsql {
     color: #09a9ff;
+
 }
 
 .btnjava:hover, .btnsql:hover {
@@ -629,8 +630,13 @@ nav {
     height: 90px;
 }
 
+
+
 #prj {
     padding-left: 30px;
+}
+#prj1{
+    padding-left: 85px;
 }
 
 #projectimg {
@@ -785,4 +791,328 @@ nav {
     background: #5b5858;
     position: relative;
     top: 250px;
+}
+
+@media all and (max-width: 320px){
+    #m1 {
+        margin-top: unset;
+        padding-left: 85px;
+        padding-top: 32px;
+        font-family: Pacifico;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        letter-spacing: 0.155em;
+    }
+    #m2 {
+        /* padding-left: 52px; */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 115.19%;
+        letter-spacing: 0.155em;
+    }
+    #m3 {
+        font-size: 50px;
+        padding-left: 46px;
+        padding-top: 24px;
+    }
+    .aboutme {
+        width: 90vw;
+        height: 70vh;
+        margin-left: 16px;
+        /* box-shadow: 0px 5px 5px rgb(0 0 0 / 50%); */
+        border-radius: 10px;
+        background: #ffffff;
+        /* background: linear-gradient(to bottom, #2CD3EF, #7FEEE4); */
+    }
+    #iam {
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 115.19%;
+        letter-spacing: 0.155em;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .mydetails {
+        padding-left: 32px;
+        padding-top: 2px;
+        font-size: 18px;
+    }
+    #age {
+        font-size: 13px;
+    }
+    #schl{
+        font-size: 13px;
+    }
+    #addrs{
+        font-size: 13px;
+    }
+    #mail{
+        font-size: 13px;
+    }
+    #cntct{
+        font-size: 13px;
+    }
+    #dbtn{
+        position: relative;
+        left: 30px;
+        bottom: 6px;
+
+    }
+
+    .skills {
+        width: 89vw;
+        height: 80vh;
+        margin-left: 18px;
+        border-radius: 10px;
+        background: #ffffff;
+    }
+    #skill {
+        padding-left: 111px;
+    }
+    #java{
+        font-size: 13px;
+    }
+    .javaclass {
+        width: 150px;
+        height: 19.52px;
+        left: 369px;
+        top: 1524.8px;
+        background: #FF4848;
+        border: 1px solid #FF4848;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0  25%);*/
+        border-radius: 39px;
+        margin-left: 64px;
+        margin-top: 44px;
+    }
+    #css{
+        font-size: 13px;
+    }
+    .cssclass {
+        width: 125px;
+        height: 22.62px;
+        left: 370px;
+        top: 1581.18px;
+        background: #BFEE05;
+        border: 1px solid #BFEE05;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 39px;
+        margin-left: 63px;
+        margin-top: 44px;
+    }
+    #html{
+        font-size: 13px;
+    }
+    .htmlclass {
+        width: 138px;
+        height: 25.55px;
+        left: 370px;
+        top: 1653.35px;
+        background: #48B2FF;
+        border: 1px solid #48B2FF;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 39px;
+        margin-left: 46px;
+        margin-top: 42px;
+    }
+    #ms{
+        font-size: 13px;
+    }
+    .mysql {
+        width: 113.5px;
+        height: 25.55px;
+        left: 370px;
+        top: 1723.4px;
+        background: #515D65;
+        border: 1px solid #515D65;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 39px;
+        margin-left: 40px;
+        margin-top: 42px;
+    }
+    #js{
+        font-size: 13px;
+    }
+    .javas {
+        width: 80px;
+        height: 25.55px;
+        left: 369px;
+        top: 1797.4px;
+        background: #CD7F0B;
+        border: 1px solid #CD7F0B;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 39px;
+        margin-left: 26px;
+        margin-top: 45px;
+    }
+    #edumain{
+        padding-left: 104px;
+    }
+    .Edu {
+        width: 87vw;
+        height: 90vh;
+        border-radius: 10px;
+        /* box-shadow: 0px 5px 5px rgb(0 0 0 / 50%); */
+        margin-left: 22px;
+        background: #ffffff;
+        /* background: linear-gradient(to bottom, #FFE3F1, #f5a3d1); */
+        /* display: flex; */
+    }
+    .eduijse {
+        width: 253px;
+        height: 86px;
+        /* left: 788px; */
+        /* top: 2264px; */
+        background: #f56482;
+        margin-left: 7px;
+        margin-top: 25px;
+        display: inline-block;
+        /* border: 1px solid rgba(255,255,255,0.4); */
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgb(241, 48, 221));
+        /*box-shadow: 0px 5px 5px rgb(0 0 0 / 50%);*/
+        transition: all 0.3s ease-in-out;
+    }
+    #ijse{
+        font-size: 12px;
+    }
+    .edubeeline {
+        width: 252px;
+        height: 87px;
+        /* left: 788px; */
+        /* top: 2264px; */
+        background: #12a2ef;
+        margin-left: 9px;
+        margin-top: 65px;
+        /* border: 1px solid rgba(255,255,255,0.4); */
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        background: radial-gradient(at 50% 0%, rgb(44, 53, 208), rgb(62, 27, 219));
+        /*box-shadow: 0px 5px 5px rgb(0 0 0 / 50%);*/
+        transition: all 0.3s ease-in-out;
+    }
+    .eduschool {
+        width: 250px;
+        height: 85px;
+        /* left: 788px; */
+        /* top: 2264px; */
+        background: #69e9e9;
+        margin-left: 10px;
+        margin-top: 70px;
+        /* border: 1px solid rgba(255,255,255,0.4); */
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        background: radial-gradient(at 50% 0%, rgb(5, 150, 172), rgb(5, 174, 221));
+        /*box-shadow: 0px 5px 5px rgb(0 0 0 / 50%);*/
+        transition: all 0.3s ease-in-out;
+    }
+    #assg {
+        padding-left: 101px;
+    }
+
+    #assgimg{
+    width: 302px;
+    height: 356px;
+    }
+
+    #assg1 {
+        width: 294px;
+        height: 80px;
+        display: flex;
+        position: absolute;
+    }
+
+    .assignment {
+        /* width: 80vw; */
+        /* height: 65vh; */
+        /* margin-left: 110px; */
+        /* border-radius: 10px; */
+        /* box-shadow: 0px 5px 5px rgb(0 0 0 / 50%); */
+        /* background: linear-gradient(to bottom, #f56482, #f5a3d1); */
+        /* position: absolute; */
+        width: 710px;
+        height: 454px;
+        left: 91px;
+        top: 2929px;
+        margin-left: 11px;
+        border-radius: 68px;
+        display: flex;
+    }
+    #prj {
+        padding-left: 111px;
+    }
+    #prj1 {
+        padding-left: 51px;
+        padding-top: 139px;
+        position: absolute;
+    }
+    .btn {
+        border: 1px solid #09a9ff;
+        background: black;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: "montserrat";
+        cursor: pointer;
+        margin: 10px;
+        transition: 0.8s;
+        overflow: hidden;
+        color: #ffffff;
+    }
+    #int {
+        padding-left: 100px;
+    }
+    .i1 {
+        width: 202px;
+        height: 73px;
+        position: absolute;
+        left: 51px;
+        background: lightblue;
+        /* background: linear-gradient(to left, #09a9ff, #f56482); */
+        transition: all 0.3s ease-in-out;
+    }
+    #i1 {
+        position: absolute;
+        left: 68px;
+        top: 0px;
+        font-size: 16px;
+    }
+    .i2 {
+        width: 201px;
+        height: 71px;
+        position: absolute;
+        left: 51px;
+        background: #43c4c4;
+        /* background: linear-gradient(to left, #FF4848, #09a9ff); */
+        transition: all 0.3s ease-in-out;
+        margin-top: 85px;
+    }
+    #i2 {
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        font-size: 16px;
+    }
+    .i3 {
+        height: 65px;
+        width: 198px;
+        background: #dde1e7;
+        border-radius: 5px;
+        position: absolute;
+        left: 51px;
+        box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.45), 3px 3px 5px rgba( 94, 104, 121, .288);
+        transition: all 0.3s ease-in-out;
+        margin-top: 166px;
+    }
+    #i3 {
+        position: absolute;
+        left: 50px;
+        top: -5px;
+        font-size: 16px;
+    }
+
 }
